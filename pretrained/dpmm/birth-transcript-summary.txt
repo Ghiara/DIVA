@@ -1,0 +1,2 @@
+BIRTH @ lap 1.00 : Added 0 states. 0/140 succeeded. 16/140 failed eval phase. 124/140 failed build phase.
+BIRTH @ lap 2.000 : None attempted. 0 past failures. 0 too small. 28 too busy.

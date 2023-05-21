@@ -1,0 +1,178 @@
+STATUS uid     0  lap   0.100 lapCeil     1 batchPos   1/10 batchID   6  N_b   382.631 N_ttl   382.631 ELIGIBLE 
+Creating proposal for targetUID 0 at lap 0.10 batchID 6
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 382.63 atoms assigned out of 5997.
+  Filtering to find atoms with resp > 0.10
+  Found 455 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 1.997e+03
+   83.49   40.24   32.11   61.93  160.41
+Bregman k-means DONE. Delivered 5 non-empty clusters
+     33   34   35   36   37
+   160. 83.4 61.9 40.2 32.1
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0649  after 0.0013.
+ pi[new comps]: 0.0127 0.0127 0.0127 0.0127 0.0127
+     33   34   35   36   37
+   138. 88.9 73.2 48.5 33.2
+   127. 90.9 78.3 53.0 33.0
+   121. 90.6 80.2 56.3 33.5
+   118. 89.0 80.8 59.3 34.5
+   153. 89.0 80.8 59.3 m 33
+   153. 148. 80.8 m 34     
+   301. m 33 80.8          
+   280.      101.          
+Proposal build phase DONE. Created 2 candidate clusters.
+
+Eval     targetUID 0 at lap 0.100 lapCeil 1 | REJECT change_loss  1.473e-03
+   gainL  1.473e-03
+    curL  1.073e+00
+   propL  1.074e+00
+   gain_  Lalloc -2.490e-03
+   gain_   Ldata  4.448e-04
+   gain_Lentropy  5.716e-04
+   Rejected. Remain at loss 1.073e+00
+
+STATUS uid     0  lap   0.200 lapCeil     1 batchPos   2/10 batchID   7  N_b   410.824 N_ttl   793.454 ELIGIBLE 
+STATUS uid     0  lap   0.300 lapCeil     1 batchPos   3/10 batchID   9  N_b   384.997 N_ttl  1178.451 ELIGIBLE 
+Creating proposal for targetUID 0 at lap 0.30 batchID 9
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 385.00 atoms assigned out of 5996.
+  Filtering to find atoms with resp > 0.10
+  Found 463 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 2.197e+03
+   96.71   78.22   78.62  116.78    9.65
+Bregman k-means DONE. Delivered 5 non-empty clusters
+    168  169  170  171  172
+   116. 96.7 78.6 78.2 9.65
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0662  after 0.0013.
+ pi[new comps]: 0.0130 0.0130 0.0130 0.0130 0.0130
+    168  169  170  171  172
+   109. 92.7 90.4 83.3 8.95
+   101. 90.0 97.2 86.9 8.84
+   95.9 88.5 102. 89.3 8.82
+   91.0 87.7 106. 91.1 8.81
+   197. 87.7 m168 91.1 8.81
+   197. 96.5      91.1 m169
+   288. 96.5      m168     
+   276. 108.               
+Proposal build phase DONE. Created 2 candidate clusters.
+
+Eval     targetUID 0 at lap 0.300 lapCeil 1 | REJECT change_loss  3.961e-03
+   gainL  3.961e-03
+    curL  1.011e+00
+   propL  1.015e+00
+   gain_  Lalloc -3.411e-03
+   gain_   Ldata -7.652e-04
+   gain_Lentropy  2.148e-04
+   Rejected. Remain at loss 1.011e+00
+
+STATUS uid     0  lap   0.400 lapCeil     1 batchPos   4/10 batchID   8  N_b   372.849 N_ttl  1551.300 ELIGIBLE 
+STATUS uid     0  lap   0.500 lapCeil     1 batchPos   5/10 batchID   4  N_b   393.665 N_ttl  1944.965 ELIGIBLE 
+Creating proposal for targetUID 0 at lap 0.50 batchID 4
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 393.66 atoms assigned out of 5997.
+  Filtering to find atoms with resp > 0.10
+  Found 474 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 1.947e+03
+   39.82   35.05  190.12   13.25  111.86
+Bregman k-means DONE. Delivered 5 non-empty clusters
+    308  309  310  311  312
+   190. 111. 39.8 35.0 13.2
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0647  after 0.0013.
+ pi[new comps]: 0.0127 0.0127 0.0127 0.0127 0.0127
+    308  309  310  311  312
+   170. 121. 47.1 39.9 14.6
+   155. 127. 51.6 43.0 15.7
+   146. 131. 55.2 44.9 16.1
+   140. 133. 58.2 46.0 16.0
+   140. 133. 104. m310 16.0
+   156. 133. 104.      m308
+   260. 133. m308          
+   393. m308               
+   393.                    
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid     0  lap   0.600 lapCeil     1 batchPos   6/10 batchID   1  N_b   409.077 N_ttl  2354.042 ELIGIBLE 
+STATUS uid     0  lap   0.700 lapCeil     1 batchPos   7/10 batchID   0  N_b   389.095 N_ttl  2743.136 ELIGIBLE 
+Creating proposal for targetUID 0 at lap 0.70 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 389.09 atoms assigned out of 5997.
+  Filtering to find atoms with resp > 0.10
+  Found 462 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 2.159e+03
+   83.40   88.40   55.83  143.04   13.13
+Bregman k-means DONE. Delivered 5 non-empty clusters
+    448  449  450  451  452
+   143. 88.4 83.3 55.8 13.1
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0655  after 0.0013.
+ pi[new comps]: 0.0128 0.0128 0.0128 0.0128 0.0128
+    448  449  450  451  452
+   117. 102. 92.7 64.8 10.9
+   103. 109. 96.0 70.0 9.76
+   95.7 114. 96.5 72.9 9.58
+   91.4 116. 95.8 74.8 10.1
+   187. 116. m448 74.8 10.1
+   187. 126.      74.8 m449
+   187. 201.      m449     
+   185. 203.               
+Proposal build phase DONE. Created 2 candidate clusters.
+
+Eval     targetUID 0 at lap 0.700 lapCeil 1 | REJECT change_loss  2.308e-03
+   gainL  2.308e-03
+    curL  9.915e-01
+   propL  9.938e-01
+   gain_  Lalloc -2.078e-03
+   gain_   Ldata -3.780e-04
+   gain_Lentropy  1.478e-04
+   Rejected. Remain at loss 9.915e-01
+
+STATUS uid     0  lap   0.800 lapCeil     1 batchPos   8/10 batchID   5  N_b   354.033 N_ttl  3097.169 ELIGIBLE 
+STATUS uid     0  lap   0.900 lapCeil     1 batchPos   9/10 batchID   2  N_b   359.226 N_ttl  3456.395 ELIGIBLE 
+Creating proposal for targetUID 0 at lap 0.90 batchID 2
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 359.23 atoms assigned out of 5997.
+  Filtering to find atoms with resp > 0.10
+  Found 429 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 2.057e+03
+   79.64   40.23  127.85   45.33   61.56
+Bregman k-means DONE. Delivered 5 non-empty clusters
+    593  594  595  596  597
+   127. 79.6 61.5 45.3 40.2
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0646  after 0.0013.
+ pi[new comps]: 0.0127 0.0127 0.0127 0.0127 0.0127
+    593  594  595  596  597
+   121. 80.8 66.1 50.4 40.0
+   119. 79.4 67.7 54.1 38.2
+   120. 76.4 67.8 57.2 36.7
+   123. 72.8 67.6 59.8 35.8
+   195. m593 67.6 59.8 35.8
+   231.      67.6 59.8 m593
+   231.      127. m595     
+   222.      136.          
+Proposal build phase DONE. Created 2 candidate clusters.
+
+Eval     targetUID 0 at lap 0.900 lapCeil 1 | REJECT change_loss  1.846e-03
+   gainL  1.846e-03
+    curL  9.868e-01
+   propL  9.886e-01
+   gain_  Lalloc -1.618e-03
+   gain_   Ldata -3.229e-04
+   gain_Lentropy  9.568e-05
+   Rejected. Remain at loss 9.868e-01
+
+STATUS uid     0  lap   1.000 lapCeil     1 batchPos   0/10 batchID   3  N_b   412.886 N_ttl  3869.281 ELIGIBLE 
+STATUS uid     0  lap   1.100 lapCeil     2 batchPos   1/10 batchID   1  N_b   408.243 N_ttl  3868.447 BUSY DELETE PROPOSAL

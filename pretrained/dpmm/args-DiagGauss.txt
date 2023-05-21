@@ -1,0 +1,6 @@
+ECovMat eye
+MMat zero
+kappa 0.0001
+min_covar 1e-08
+nu 0
+sF 1.0

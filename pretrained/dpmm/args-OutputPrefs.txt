@@ -1,0 +1,20 @@
+customFuncArgs None
+customFuncPath None
+debugBatch -1
+debugLap -1
+debugLapBuffer 5
+doSaveEstParams 0
+doSaveFullModel 1
+doSaveObsModel 1
+doSaveToDisk True
+doSaveTopicModel 0
+doWriteStdOut True
+jobname none
+nTask 1
+output_path c:\Users\Yuan Meng\Desktop\gpt\bnpy/save/bn_model/1
+printEvery 1.0
+saveEarly 0.0
+saveEvery 5.0
+saveEveryLogScaleFactor 0.0
+taskid 1
+traceEvery 1.0

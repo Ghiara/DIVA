@@ -1,0 +1,9 @@
+d_initTargetDocTopicCount cold_start
+d_initWordCounts bycorr
+d_maxNumAtomsForTargetComp 50000.0
+d_minPercChangeInNumAtomsToReactivate 0.01
+d_nLapToReactivate 5
+d_nRefineSteps 25
+d_nStuckBeforeQuit 10
+d_startLap 2
+d_stopLap -1

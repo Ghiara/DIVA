@@ -1,0 +1,145 @@
+STATUS uid     3  lap   0.100 lapCeil     1 batchPos   1/10 batchID   6  N_b   303.970 N_ttl   303.970 ELIGIBLE 
+Creating proposal for targetUID 3 at lap 0.10 batchID 6
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 303.97 atoms assigned out of 5997.
+  Filtering to find atoms with resp > 0.10
+  Found 357 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 1.125e+03
+   34.59   90.57   36.28   49.62   90.66
+Bregman k-means DONE. Delivered 5 non-empty clusters
+     48   49   50   51   52
+   90.6 90.5 49.6 36.2 34.5
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0557  after 0.0011.
+ pi[new comps]: 0.0109 0.0109 0.0109 0.0109 0.0109
+     48   49   50   51   52
+   111. 108. 41.2 24.0 17.9
+   131. 127. 28.8 12.3 4.06
+   142. 140. 17.0 3.98 0.21
+   142. 140. 17.0 3.98      (removed comps below minimum size of 1.00)
+   146. 149. 7.75 0.47     
+   146. 149. 7.75           (removed comps below minimum size of 1.00)
+   295. m 48 7.75          
+   303.      m 48          
+   303.                    
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid     3  lap   0.200 lapCeil     1 batchPos   2/10 batchID   7  N_b   365.208 N_ttl   669.178 ELIGIBLE 
+STATUS uid     3  lap   0.300 lapCeil     1 batchPos   3/10 batchID   9  N_b   370.000 N_ttl  1039.178 ELIGIBLE 
+Creating proposal for targetUID 3 at lap 0.30 batchID 9
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 370.00 atoms assigned out of 5996.
+  Filtering to find atoms with resp > 0.10
+  Found 416 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 1.214e+03
+   24.00   74.50   43.77   50.81  174.01
+Bregman k-means DONE. Delivered 5 non-empty clusters
+    178  179  180  181  182
+   174. 74.5 50.8 43.7 23.9
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0559  after 0.0011.
+ pi[new comps]: 0.0109 0.0109 0.0109 0.0109 0.0109
+    178  179  180  181  182
+   202. 71.1 48.7 37.6 10.5
+   230. 66.5 42.8 26.2 3.35
+   257. 61.7 36.0 14.3 0.72
+   257. 61.7 36.0 14.3      (removed comps below minimum size of 1.00)
+   277. 57.1 29.1 6.26     
+   334. m178 29.1 6.26     
+   363.      m178 6.26     
+   369.           m178     
+   369.                    
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid     3  lap   0.400 lapCeil     1 batchPos   4/10 batchID   8  N_b   328.356 N_ttl  1367.534 ELIGIBLE 
+STATUS uid     3  lap   0.500 lapCeil     1 batchPos   5/10 batchID   4  N_b   358.981 N_ttl  1726.515 ELIGIBLE 
+Creating proposal for targetUID 3 at lap 0.50 batchID 4
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 358.98 atoms assigned out of 5997.
+  Filtering to find atoms with resp > 0.10
+  Found 409 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 1.228e+03
+   82.07  118.52   50.76   76.50   29.21
+Bregman k-means DONE. Delivered 5 non-empty clusters
+    323  324  325  326  327
+   118. 82.0 76.5 50.7 29.2
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0570  after 0.0011.
+ pi[new comps]: 0.0112 0.0112 0.0112 0.0112 0.0112
+    323  324  325  326  327
+   135. 81.1 70.4 52.8 19.3
+   155. 79.9 59.3 55.5 9.07
+   176. 78.2 44.0 57.7 2.58
+   197. 75.3 27.4 58.7 0.17
+   197. 75.3 27.4 58.7      (removed comps below minimum size of 1.00)
+   272. m323 27.4 58.7     
+   300.      m323 58.7     
+   358.           m323     
+   358.                    
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid     3  lap   0.600 lapCeil     1 batchPos   6/10 batchID   1  N_b   338.710 N_ttl  2065.225 ELIGIBLE 
+STATUS uid     3  lap   0.700 lapCeil     1 batchPos   7/10 batchID   0  N_b   361.255 N_ttl  2426.480 ELIGIBLE 
+Creating proposal for targetUID 3 at lap 0.70 batchID 0
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 361.26 atoms assigned out of 5997.
+  Filtering to find atoms with resp > 0.10
+  Found 406 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 1.151e+03
+   20.15  115.67  109.37   18.86   94.82
+Bregman k-means DONE. Delivered 5 non-empty clusters
+    458  459  460  461  462
+   115. 109. 94.8 20.1 18.8
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0574  after 0.0011.
+ pi[new comps]: 0.0113 0.0113 0.0113 0.0113 0.0113
+    458  459  460  461  462
+   131. 124. 87.3 8.69 8.69
+   142. 138. 77.3 1.11 1.71
+   145. 149. 66.6 <.01 0.01
+   145. 149. 66.6           (removed comps below minimum size of 1.00)
+   145. 160. 55.2          
+   145. 216. m459          
+   361. m458               
+   361.                    
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid     3  lap   0.800 lapCeil     1 batchPos   8/10 batchID   5  N_b   333.459 N_ttl  2759.939 ELIGIBLE 
+STATUS uid     3  lap   0.900 lapCeil     1 batchPos   9/10 batchID   2  N_b   307.905 N_ttl  3067.845 ELIGIBLE 
+Creating proposal for targetUID 3 at lap 0.90 batchID 2
+Preparing target dataset for Bregman k-means analysis...
+  Targeted comp has 307.91 atoms assigned out of 5997.
+  Filtering to find atoms with resp > 0.10
+  Found 358 atoms meeting this requirement.
+Running Bregman k-means with K=5 for 1 iters
+iter 0: Lscore 1.072e+03
+   47.22   64.41   73.29   69.00   51.88
+Bregman k-means DONE. Delivered 5 non-empty clusters
+    613  614  615  616  617
+   73.2 68.9 64.4 51.8 47.2
+ Running 5 refinement iterations (--b_nRefineSteps)
+ target prob redistributed by policy uniform (--b_method_xPi)
+ pi[ktarget] before 0.0575  after 0.0012.
+ pi[new comps]: 0.0113 0.0113 0.0113 0.0113 0.0113
+    613  614  615  616  617
+   76.9 73.5 65.1 49.7 42.5
+   80.8 81.2 66.2 44.3 35.1
+   85.9 92.4 67.9 36.1 25.3
+   92.1 106. 69.6 25.3 14.1
+   161. 106. m613 25.3 14.1
+   268. m613      25.3 14.1
+   293.           m613 14.1
+   307.                m613
+   307.                    
+Proposal build phase FAILED. Could not create at least two comps with mass >= 1.0 (--b_minNumAtomsForNewComp)
+
+STATUS uid     3  lap   1.000 lapCeil     1 batchPos   0/10 batchID   3  N_b   333.201 N_ttl  3401.045 ELIGIBLE 
+STATUS uid     3  lap   1.100 lapCeil     2 batchPos   1/10 batchID   1  N_b   333.268 N_ttl  3395.604 BUSY DELETE PROPOSAL

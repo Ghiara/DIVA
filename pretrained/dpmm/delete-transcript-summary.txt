@@ -1,0 +1,2 @@
+DELETE @ lap 1.00: Disabled. Cannot delete before first complete lap, because SS that represents whole dataset is required.
+DELETE @ lap 2.00: 0/1 accepted. Ndiff 0.00.

@@ -1,0 +1,2 @@
+MERGE @ lap 1.00: Disabled. Cannot plan merge on first lap. Need valid SS that represent whole dataset.
+MERGE @ lap 2.00 : 0/66 accepted. Ndiff 0.00. 0 skipped.

@@ -1,0 +1,19 @@
+K 6
+initBlockLen 20
+initDim 1000
+initDropWordIDs None
+initFracJunk 0.05
+initKextra 1
+initLP none
+initLapFrac -1.0
+initMinDocPerWord 0
+initMinWordsPerDoc 0
+initObsModelAddRandomNoise 0
+initObsModelScale 0.0
+initTargetCompID 0
+init_NiterForBregmanKMeans 1
+init_minNumAtomsInEachTargetDoc 100
+init_setOneToPriorMean 0
+initarg 0.0
+initname c:\Users\Yuan Meng\Desktop\gpt\bnpy/save/bn_model/0\1
+nRepeatTrue 2

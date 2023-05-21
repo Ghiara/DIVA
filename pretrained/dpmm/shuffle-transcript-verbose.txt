@@ -1,0 +1,2 @@
+SHUFFLED at lap 1.000. diff -1.8280e-09   prev_loss  9.8466e-01   new_loss  9.8466e-01
+SHUFFLED at lap 2.000. diff -6.1524e-09   prev_loss  9.8408e-01   new_loss  9.8408e-01

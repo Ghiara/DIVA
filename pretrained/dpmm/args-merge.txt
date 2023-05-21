@@ -1,0 +1,10 @@
+m_maxNumPairsContainingComp 5
+m_minPercChangeInNumAtomsToReactivate 0.01
+m_nLapToReactivate 5
+m_nStuckBeforeQuit 10
+m_pair_ranking_direction descending
+m_pair_ranking_do_exclude_by_thr 0
+m_pair_ranking_exclusion_thr -1e-06
+m_pair_ranking_procedure total_size
+m_startLap 2
+m_stopLap -1
