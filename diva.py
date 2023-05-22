@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
 import torchvision.utils as vutils
 from torchvision.datasets import MNIST,FashionMNIST
-from dataset.reuters10k.reuters10k import Reuters10kDataset
+# from dataset.reuters10k.reuters10k import Reuters10kDataset
 import pytorch_lightning as pl
 from scipy.optimize import linear_sum_assignment
 
@@ -767,7 +767,8 @@ class DIVA_Experiment(pl.LightningModule):
                             download = True,
                             )
         elif self.params['dataset'] == 'reuters10k':
-            full_train_dataset = Reuters10kDataset(train=True)
+            # full_train_dataset = Reuters10kDataset(train=True)
+            pass
         else:
             raise ValueError('Undefined dataset type')
         # split subset
@@ -797,7 +798,8 @@ class DIVA_Experiment(pl.LightningModule):
                                         )            
 
         elif self.params['dataset'] == 'reuters10k':
-            full_test_dataset = Reuters10kDataset(train=False)
+            # full_test_dataset = Reuters10kDataset(train=False)
+            pass
         else:
             raise ValueError('Undefined dataset type')
         # split subset
