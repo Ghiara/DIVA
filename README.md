@@ -4,11 +4,9 @@
 Official implementation for paper: 
 [DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder](https://arxiv.org/abs/2305.14067)
 <p align="center">
-<!-- <img src="pretrained/diva_latent_dyn.png" width="800"> -->
-<!-- [![Demo](https://github.com/Ghiara/diva/blob/master/pretrained/diva_latent_dyn.png)](https://github.com/Ghiara/diva/blob/master/02_DIVA_dyn_t-SNE_video.mp4) -->
-
+  A demo video for showing DIVA's dynamic adaptation ability in deep clustering.
   <a href="https://www.youtube.com/watch?v=uHPGAUSSbh8">
-    <img src="https://github.com/Ghiara/diva/blob/master/pretrained/diva_latent_dyn.png" alt="Demo Video" width="100%">
+    <img src="https://github.com/Ghiara/diva/blob/master/pretrained/poster.png" alt="Demo Video" width="100%">
   </a>
 </p>
 <!-- </img> -->
