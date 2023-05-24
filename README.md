@@ -1,7 +1,8 @@
 # DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder
 
-Implementation of DIVA
+
 <p align="center">
+Implementation for paper: [DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder] (https://arxiv.org/abs/2305.14067)
 <img src="pretrained/diva_latent_dyn.png" width="800">
 </p>
 </img>
@@ -10,7 +11,7 @@ Implementation of DIVA
 ## Requirements
 we use python 3.7 and pytorch-lightning for training. Before start training, make sure you have installed bnpy package in your local environment, refer to [here](https://bnpy.readthedocs.io/en/latest/) for more details.
 
-- python 3.7+
+- python 3.7
 - bnpy 1.7.0
 - pytorch-lightning
 
