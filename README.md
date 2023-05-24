@@ -3,10 +3,10 @@
 
 Official implementation for paper: 
 [DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder](https://arxiv.org/abs/2305.14067)
-<p align="center">
+<!-- <p align="center"> -->
 <!-- <img src="pretrained/diva_latent_dyn.png" width="800"> -->
 [![Demo](https://github.com/Ghiara/diva/blob/master/pretrained/diva_latent_dyn.png)](https://github.com/Ghiara/diva/blob/master/02_DIVA_dyn_t-SNE_video.mp4)
-</p>
+<!-- </p> -->
 <!-- </img> -->
 
 
