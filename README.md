@@ -6,7 +6,10 @@ Official implementation for paper:
 <p align="center">
 <!-- <img src="pretrained/diva_latent_dyn.png" width="800"> -->
 <!-- [![Demo](https://github.com/Ghiara/diva/blob/master/pretrained/diva_latent_dyn.png)](https://github.com/Ghiara/diva/blob/master/02_DIVA_dyn_t-SNE_video.mp4) -->
-  <video src="https://github.com/Ghiara/diva/blob/master/02_DIVA_dyn_t-SNE_video.mp4" controls></video>
+
+  <a href="https://github.com/Ghiara/diva/blob/master/02_DIVA_dyn_t-SNE_video.mp4">
+    <img src="https://github.com/Ghiara/diva/blob/master/pretrained/diva_latent_dyn.png" alt="Demo Video" width="50%">
+  </a>
 </p>
 <!-- </img> -->
 
