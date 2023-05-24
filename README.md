@@ -1,8 +1,9 @@
 # DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder
 
 
+Official implementation for paper: 
+[DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder](https://arxiv.org/abs/2305.14067)
 <p align="center">
-Implementation for paper: [DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder] (https://arxiv.org/abs/2305.14067)
 <img src="pretrained/diva_latent_dyn.png" width="800">
 </p>
 </img>
