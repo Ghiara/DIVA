@@ -7,7 +7,7 @@ Official implementation for paper:
 <!-- <img src="pretrained/diva_latent_dyn.png" width="800"> -->
 <!-- [![Demo](https://github.com/Ghiara/diva/blob/master/pretrained/diva_latent_dyn.png)](https://github.com/Ghiara/diva/blob/master/02_DIVA_dyn_t-SNE_video.mp4) -->
 
-  <a href="https://github.com/Ghiara/diva/blob/master/02_DIVA_dyn_t-SNE_video.mp4">
+  <a href="https://www.youtube.com/watch?v=uHPGAUSSbh8">
     <img src="https://github.com/Ghiara/diva/blob/master/pretrained/diva_latent_dyn.png" alt="Demo Video" width="100%">
   </a>
 </p>
