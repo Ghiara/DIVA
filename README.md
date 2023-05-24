@@ -50,3 +50,16 @@ def calc_cluster_component_params(bnp_model):
         comp_var = [torch.Tensor(np.sum(bnp_model.obsModel.get_covar_mat_for_comp(i), axis=0)) for i in np.arange(0, bnp_model.obsModel.K)] 
         return comp_mu, comp_var
 ```
+
+## Citation
+if you would like to refer to our work, please use following BibTeX formatted citation
+```
+@misc{bing2023diva,
+      title={DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder}, 
+      author={Zhenshan Bing and Yuan Meng and Yuqi Yun and Hang Su and Xiaojie Su and Kai Huang and Alois Knoll},
+      year={2023},
+      eprint={2305.14067},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
