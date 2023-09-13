@@ -31,17 +31,24 @@ pip3 install -r requirements.txt
 
 ```
 DIVA
-  |- dataset                # folder for saving datasets
-  |    |- reuters10k.py     # dataset instance of reuters10k that follows torchvision formatting
-  |    |- reuters10k.mat    # origin data of reuters10k
-  |- pretrained             # folder for saving pretrained example model on MNIST
-  |    |- dpmm              # folder for saving DPMM cluster module
-  |    |- diva_vae.ckpt     # checkpoint file of trained DIVA VAE part
-  |    |- pretrained.ipynb  # example file how to load pretrained model
-  |- diva.py                # diva implementations for image and text; train manager
-  |- main.py                # main entry point of diva training, including evaluation plots.
+  |- dataset                    # folder for saving datasets
+  |    |- reuters10k.py         # dataset instance of reuters10k that follows torchvision formatting
+  |    |- reuters10k.mat        # origin data of reuters10k
+  |- pretrained                 # folder for saving pretrained example model on MNIST
+  |    |- dpmm                  # folder for saving DPMM cluster module
+  |    |- diva_vae.ckpt         # checkpoint file of trained DIVA VAE part
+  |    |- pretrained.ipynb      # example file how to load pretrained model
+  |- diva.py                    # diva implementations for image and text; train manager
+  |- main_mnist.ipynb           # main entry point of diva training on MNIST, including evaluation plots.
+  |- main_stl10.ipynb           # main entry point of diva training on STL-10.
+  |- main_imagenet50.ipynb      # main entry point of diva training on ImageNet-50.
+  |- feature_extraction.ipynb   # script that using pretrained ResNet-50 to extract features of STL-10.
 
 ```
+
+## Dataset Notation
+Since the training on raw image of STL-10 and ImageNet-50 is quite difficult, we use extractor to get low dimensional encoding of these datasets. For STL-10 we use pretrained ResNet-50 provided by torchvision, just follow the script `feature_extraction.ipynb` you will get the features that we used in our study. For ImageNet-50 we use the MOCO to extract features, more details refer to [here](https://arxiv.org/abs/2003.04297) and [here](https://github.com/BGU-CS-VIL/DeepDPM/tree/main/pretrained_embeddings/MOCO/IMAGENET_50).
+
 
 ## Load pretrained model
 ```
