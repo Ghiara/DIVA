@@ -1,4 +1,4 @@
-# DIVA: A Dirichlet Process Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder
+# DIVA: A Dirichlet Process Mixtures Based Incremental Deep Clustering Algorithm via Variational Auto-Encoder
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/facebookresearch/mtrl/blob/main/LICENSE)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
@@ -18,7 +18,8 @@ we use python 3.7 and pytorch-lightning for training. Before start training, mak
 
 - python 3.7
 - bnpy 1.7.0
-- pytorch-lightning
+- pytorch-lightning 1.9.4
+- numpy, pandas, matplotlib, seaborn, torchvision
 
 ## Installation Instructions
 
@@ -36,7 +37,7 @@ DIVA
   |    |- reuters10k.mat        # origin data of reuters10k
   |- pretrained                 # folder for saving pretrained example model on MNIST
   |    |- dpmm                  # folder for saving DPMM cluster module
-  |    |- diva_vae.ckpt         # checkpoint file of trained DIVA VAE part
+  |    |- diva_vae.ckpt         # checkpoint file of trained DIVA VAE part on MNIST with 100 epochs and ACC 0.91
   |    |- pretrained.ipynb      # example file how to load pretrained model
   |- diva.py                    # diva implementations for image and text; train manager
   |- main_mnist.ipynb           # main entry point of diva training on MNIST, including evaluation plots.
@@ -50,7 +51,7 @@ DIVA
 Since the training on raw image of STL-10 and ImageNet-50 is quite difficult, we use extractor to get low dimensional encoding of these datasets. For STL-10 we use pretrained ResNet-50 provided by torchvision, just follow the script `feature_extraction.ipynb` you will get the features that we used in our study. For ImageNet-50 we use the MOCO to extract features, more details refer to [here](https://arxiv.org/abs/2003.04297) and [here](https://github.com/BGU-CS-VIL/DeepDPM/tree/main/pretrained_embeddings/MOCO/IMAGENET_50).
 
 
-## Load pretrained model
+## Load pretrained DPMM clustering module
 ```
 # load DPMM module
 dpmm_model = bnpy.ioutil.ModelReader.load_model_at_prefix('path/to/your/bn_model/folder/dpmm', prefix="Best")
